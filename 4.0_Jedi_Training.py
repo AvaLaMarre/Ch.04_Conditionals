@@ -2,7 +2,7 @@
 #Below each program list the mistakes found in comments.
 
 #1. Make the following program work. (3 mistakes)  (3pts)
-     
+"""
 midichlorians = float(input("Enter midichlorian count: "))
 if midichlorians > 10000:
     print("You have serious Jedi potential")
@@ -137,4 +137,10 @@ elif grade >= 60:
     print("Final Grade = D")
 else:
     print("Final Grade = F, Transfer to Johnston")
+"""
+num = 0
+for i in range(80):
+    print(num)
+    num += 1
+
 
